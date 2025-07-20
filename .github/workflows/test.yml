@@ -99,8 +99,8 @@ jobs:
         with:
           push: true
           tags: |
-            jmk199999/Assignment10:latest
-            jmk199999/Assignment10:${{ github.sha }}
+            jmk199999/assignment10:latest
+            jmk199999/assignment10:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=jmk199999/Assignment10:cache
+          cache-from: type=registry,ref=jmk199999/assignment10:cache
           cache-to: type=inline,mode=max
